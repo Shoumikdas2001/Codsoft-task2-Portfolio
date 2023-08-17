@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="shortcut icon" href="portfolio.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shoumik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Work Experience</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <span>SHOUMIK</span>
+                <span>DAS</span>
+                <div>I'm a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://drive.google.com/file/d/1RDApfKSi8xUM6-5nttQ1eHjYKbXAaP6T/view?usp=sharing"><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/Shoumikdas2001"><button class="btn">Visit Github</button></a>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <div class="about">
+            <h1>About</h1>
+            <img src="photo.jpg" alt="">
+            <p>As a fresher in the field of computer science engineering, I am Shoumik Das, fueled by a passion for
+                technology and innovation. Currently immersed in my academic journey, I am diligently acquiring
+                essential technical skills, coding languages, and problem-solving techniques. With a thirst for
+                knowledge, I actively seek opportunities to expand my horizons through internships, projects, and
+                collaborative experiences. My adaptability, strong work ethic, and eagerness to learn make me a valuable
+                addition to any software engineering team. With a vision to contribute to impactful solutions, I am
+                dedicated to embracing challenges and evolving alongside the dynamic landscape of software development.
+            </p>
+            <p>My Skills include <b>C, C++, java, python, HTML, CSS and MySQL.</b></p>
+            <ul>
+                <li>• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bachelor of Technology in Computer Science Engineering (2020-2024)
+                </li>
+                <ul>
+                    <li>Future Institute of Engineering and Management</li>
+                    <li>Maulana Abul Kalam Azad University of Technology, West Bengal</li>
+                </ul>
+                <li>• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12<sup>th</sup> Standard PCM + Computer Science</li>
+                <ul>
+                    <li>B.D.M. International - Kolkata</li>
+                    <li>Central Board of Secondary Education</li>
+                </ul>
+                <li>• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10<sup>th</sup> Standard</li>
+                <ul>
+                    <li>Adamas International School - Kolkata</li>
+                    <li>Council for the Indian School Certificate Examinations</li>
+                </ul>
+            </ul>
+        </div>
+        <hr>
+        <section class="secondSection">
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        CodSoft Internship (July 2023 - August 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Hands-on web development internship at CodSoft, enhancing skills in coding, design, and creating
+                        dynamic user experiences. Real-world projects
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="MERN.png" alt="">
+                    <div class="vertical-title">
+                        E-Commerce Website using MERN Stack (June 2023 - Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Build dynamic e-commerce site using MERN stack: React, Node.js, MongoDB; seamless shopping
+                        experience, robust backend, engaging UI
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="MERN.png" alt="">
+                    <div class="vertical-title">
+                        Todo List MERN Stack (Self Project)
+                    </div>
+                    <div class="vertical-desc">
+                        Develop a full-stack todo list web app using MongoDB, Express, React, and Node.js for efficient
+                        and dynamic modern web development.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="vertical-title">
+                        University Management System using Java Swing (Self Project)
+                    </div>
+                    <div class="vertical-desc">
+                        A Java Swing-based system for efficient university management, handling student, faculty,
+                        course, and administrative tasks seamlessly.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="hcj.png" alt="">
+                    <div class="vertical-title">
+                        HTML, CSS, JavaScript Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Proficient in HTML, CSS, and JavaScript, creating interactive and visually appealing web
+                        experiences with attention to detail and user-centered design.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <section class="contact">
+            <h1>Contact Me</h1>
+            <div class="container">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" placeholder="Your e-mail">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+            <div class="button-submit">
+                <button class="btn-submit">Submit</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Shoumik's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Work Experience</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Facebook</li>
+                    <li>Linkedin</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>shoumikdas2001@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; shoumikportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
